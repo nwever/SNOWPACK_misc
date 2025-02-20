@@ -8,7 +8,7 @@ To compile, do:
 `make METEOIO_DIR=/path/to/meteoio/install/dir`
 
 # Running the tool
-1. Get an appropriate DEM that contains all the stations. For example, for Switzerland, the 25m DEM DHM25 can be obtained [here](https://www.swisstopo.admin.ch/en/height-model-dhm25). The provided `io.ini` expects the DEM to be in ASC format, and to be called 'dem.asc'.
+1. Get an appropriate DEM that contains all the stations. For example, for Switzerland, the 25m DEM DHM25 can be obtained [here](https://www.swisstopo.admin.ch/en/height-model-dhm25). The provided `io.ini` expects the DEM to be in ASC format, and to be called `dem.asc`, but this can be changed in the `io.ini` file.
 2. Create a list of stations in `stn.lst`
 3. Run: `./horizons > horizons.txt`
 
