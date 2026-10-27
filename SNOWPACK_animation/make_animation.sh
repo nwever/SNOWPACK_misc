@@ -119,7 +119,9 @@ pr[12]=700; pv[12]="FF0000"; \
 pr[13]=799; pv[13]="FF0000"; \
 pr[14]=800; pv[14]="00FFFF"; \
 pr[15]=899; pv[15]="00FFFF"; \
-pn=16; min=pr[0]; max=pr[pn-1]; \
+pr[16]=900; pv[16]="ADD8E6"; \
+pr[17]=999; pv[17]="ADD8E6"; \
+pn=18; min=pr[0]; max=pr[pn-1]; \
 if(val==-999 || val<pr[0]) {return "0xFFFFFF"} \
 if(val>pr[pn-1]) {return sprintf("0x%s", pv[pn-1])} \
 for(ii=0; ii<pn-1; ii++) { \
